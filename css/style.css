@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    background: rgb(61, 61, 255);
+}
+.header-box {
+    display: flex;
+    align-items: center;
+}
+.header-data-manager {
+    color: white;
+    font-size: 20px;
+}
+.header-left {
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.header-right {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.header-tel {
+    color: white;
+}
+.header-email {
+    color: white;
+}
+.header-data-manager:hover {
+    color: rgb(119, 160, 255);
+}
+.header-tel:hover {
+    color: rgb(119, 160, 255);
+}
+.header-email:hover {
+    color: rgb(119, 160, 255);
+}
+
+
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0; bottom: 0;
+    background: black;
+    width: 100%;
+}
+.footer-box {
+    display: flex;
+    align-items: center;
+}
+.footer-data-manager {
+    color: white;
+    font-size: 20px;
+}
+.footer-left {
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.footer-right {
+    text-align: left;
+    margin-left: 13%;
+    width: 250px;
+}
+.footer-tel {
+    color: white;
+}
+.footer-email {
+    color: white;
+}
+/* .footer-data-manager:hover {
+    color: rgb(119, 160, 255);
+}
+.footer-tel:hover {
+    color: rgb(119, 160, 255);
+}
+.footer-email:hover {
+    color: rgb(119, 160, 255);
+} */
+
+.main-elements {
+    margin-top: 5%;
+    margin-left: 17%;
+}
+/* .main-elements-input {
+    width: ;
+} */
+#amountCredit {
+    width: 200px;
+    height: 32px;
+    color: black;
+    font-weight: bolder;
+}
+#timeCredit {
+    width: 200px;
+    height: 32px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+#interestRate {
+    width: 235px;
+    height: 32px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+#userData {
+    width: 280px;
+    height: 32px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+#userTel {
+    width: 235px;
+    height: 32px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 1%;
+}
+.submit-app{
+    width: 208px;
+    color: black;
+    font-weight: bolder;
+    height: 38px;
+    margin-top: 24px
+}
+.calc-result {
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.show-table-btn {
+    width: 208px;
+    color: black;
+    font-weight: bolder;
+    height: 38px;
+    margin-top: auto;
+    margin-left: 1%
+}
+.request-call-btn {
+    display: flex;
+}
+.request-call-btn {
+    margin-left: 17%;
+}
